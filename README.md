@@ -25,7 +25,7 @@ J'ai créé un fichier en markdown, vous choisirez __une__ notion chacun dans la
 - programmation orientée objet (poo)
 - sql
 - markdown
-- wordpress
+- wordpress  
 Vous respecterez l'ordre des éléments de la liste pour ajouter votre contenu au fichier, ainsi la personne ayant choisie git ne mofifiera que le premier lien du sommaire et la première section.
 
 [Exemple de repository](https://github.com/Ma6Tvacoder-Docs/partages/blob/master/supports/techno_back.md)  

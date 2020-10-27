@@ -5,11 +5,7 @@ Créer sur vos comptes personnels un Fork depuis ce repo GitHub :
 
 ## Organisation
 
-J'ai créé deux fichiers en markdown:
-1. Front
-2. Back
-
-Vous choisirez une notion dans la liste ci-dessous et reporterez les résultats de vos recherches de la manière suivante:
+J'ai créé un fichier en markdown, vous choisirez une notion dans la liste ci-dessous et reporterez les résultats de vos recherches de la manière suivante :
 - html
 - css
 - javascript
@@ -22,12 +18,13 @@ Vous choisirez une notion dans la liste ci-dessous et reporterez les résultats 
 - git
 - markdown
 
-Vous copie-collerez les 
+Vous copie-collerez autant que necessaire la structure suivante afin d'enrichir le document :
 ## Notion choisie
   ### definition
   ### utilisation
   ### exemple
 
-Vous déterminerez en groupe l'ordre dans lequel vous afficherez les langages, vous copie-collerez la structure de base (de nom du langage à exemple) pour chaque langage.
+Vous déterminerez en groupe l'ordre dans lequel vous afficherez les langages, exécuterez un fork à partir du repository en ligne sur chacun de vos ordinateurs en local. Une fois ce repository viable sur votre ordinateur vous créérez votre branch et commencerez à travailler de dessus.  
+Vous pusherez vos modification sur votre branch et demanderez à la branch master de pull votre travail une fois fini (merge fonctionne aussi).
 
 [exemple](https://github.com/Ma6Tvacoder-Docs/partages/blob/master/supports/techno_back.md)

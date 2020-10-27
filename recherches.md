@@ -1,4 +1,5 @@
-# Recherche sur les langages en Markdown
+# Recherches sur internet en Markdown
+>Ce repository sert à s'entrainer à utiliser git tout en pratiquant du markdown. C'est aussi l'occasion de se renseigner un peu sur les différentes notions qui sont et seront abordées dans le programme.
 
 ##  Sommaire
 

@@ -5,7 +5,9 @@ Créer sur vos comptes personnels un Fork depuis ce repo GitHub :
 
 ## Marche à suivre
 En vous appuyant sur les [étapes présentes sur cette documentation](http://thelia-school.com/faire-une-pull-request-sur-un-projet-thelia/faire-une-pull-request.html).  
-__Forkez__ le repository recherches-en-markdown, __clonez__ le pour l'avoir en local, créez votre __branch__ pour travailler dessus.  
+__Forkez__ le repository recherches-en-markdown, __clonez__ le pour l'avoir en local, créez votre __branch__ pour travailler dessus.
+Ajoutez l'origine à votre repository avec __remote__  (*git remote add upstream url*).  
+Tenez votre branch master à jour avec les modifications qui arriverons au fûr et à mesure avec un __git pull__ (*git pull --ff-only upstream master*).  
 Une fois votre environnement de travail installé, __faite des recherches__ sur le langage choisi, mettez en forme votre partie du document de manière cohérente avec le reste de la mise en page.  
 Vous devrez __lier votre branch__ à votre branch master (*git rebase master*) et __push sur votre branch__.  
 Vous pourrez ensuite faire une demande à l'auteur original du repository pour qu'il pull vos modifications(*pull request*).  

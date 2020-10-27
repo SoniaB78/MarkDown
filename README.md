@@ -4,37 +4,27 @@ Créer sur vos comptes personnels un Fork depuis ce repo GitHub :
 [Lien vers le repository sur lequel il faut faire un fork](https://github.com/SoniaB78/recherche-en-markdown-avec-git)
 
 ## Marche à suivre
-En vous aappuyant sur les [étapes présentes sur cette documentation](http://thelia-school.com/faire-une-pull-request-sur-un-projet-thelia/faire-une-pull-request.html).  
-Forkez le repository recherches-en-markdown, clonez le pour l'avoir en local, créez votre branch pour travailler dessus.  
-Une fois votre environnement de travail installé, faite des recherches sur le langage choisi, mettez en forme votre partie du document de manière cohérente avec le reste de la mise en page.  
-Vous devrez lier votre branch à votre branch master (*git rebase master*) et push sur votre branch.  
-Vous pourrez ensuite faire une demande à l'auteur original du repository pour qu'il pull vos modifications.  
+En vous appuyant sur les [étapes présentes sur cette documentation](http://thelia-school.com/faire-une-pull-request-sur-un-projet-thelia/faire-une-pull-request.html).  
+__Forkez__ le repository recherches-en-markdown, __clonez__ le pour l'avoir en local, créez votre __branch__ pour travailler dessus.  
+Une fois votre environnement de travail installé, __faite des recherches__ sur le langage choisi, mettez en forme votre partie du document de manière cohérente avec le reste de la mise en page.  
+Vous devrez __lier votre branch__ à votre branch master (*git rebase master*) et __push sur votre branch__.  
+Vous pourrez ensuite faire une demande à l'auteur original du repository pour qu'il pull vos modifications(*pull request*).  
 
-
-
-## Organisation
-
-J'ai créé un fichier en markdown, vous choisirez une notion dans la liste ci-dessous et reporterez les résultats de vos recherches de la manière suivante :
+## Organisation du document
+J'ai créé un fichier en markdown, vous choisirez __une__ notion chacun dans la liste ci-dessous et reporterez les résultats de vos recherches dans le fichier recherches.md :
+- git
 - html
 - css
 - javascript
-- bootstrap
 - jquery
-- php
-- programmation orientée objet (php poo)
-- sql
+- bootstrap
 - ajax
-- git
+- php
+- programmation orientée objet (poo)
+- sql
 - markdown
-
-Au besoin vous copie-collerez autant que necessaire la structure suivante afin d'enrichir le document :
-## Notion choisie
-  ### definition
-  ### utilisation
-  ### exemple
-
-Vous déterminerez entre vous l'ordre dans lequel vous afficherez les langages, exécuterez un fork à partir du repository en ligne sur chacun de vos ordinateurs en local. Une fois ce repository viable sur votre ordinateur vous créérez votre branch et commencerez à travailler de dessus.  
-Vous pusherez vos modification sur votre branch et demanderez à la branch master de pull votre travail une fois fini (merge fonctionne aussi).
+- wordpress
+Vous respecterez l'ordre des éléments de la liste pour ajouter votre contenu au fichier, ainsi la personne ayant choisie git ne mofifiera que le premier lien du sommaire et la première section.
 
 [Exemple de repository](https://github.com/Ma6Tvacoder-Docs/partages/blob/master/supports/techno_back.md)  
 [Différence entre fork et clone](https://www.toolsqa.com/git/difference-between-git-clone-and-git-fork/)  

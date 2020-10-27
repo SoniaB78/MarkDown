@@ -1,18 +1,23 @@
 # Recherche sur les langages en Markdown
 
 ##  Sommaire
-- [Front](#front)
-- [Notion Choisie](#fnotion1)
-- [Notion Choisie](#fnotion2)
-- [Notion Choisie](#fnotion3)
-- [Back](#back)
-- [Notion Choisie](#bnotion1) 
-- [Notion Choisie](#bnotion2)
-- [Notion Choisie](#bnotion3)
 
-## <a id="front">FRONT
+- [Notion Choisie](#notion1)
+- [Notion Choisie](#notion2)
+- [Notion Choisie](#notion3)
+- [Notion Choisie](#notion4) 
+- [Notion Choisie](#notion5)
+- [Notion Choisie](#notion6)  
+- [Notion Choisie](#notion7)
+- [Notion Choisie](#notion8)
+- [Notion Choisie](#notion9)
+- [Notion Choisie](#notion10) 
+- [Notion Choisie](#notion11)
+- [Notion Choisie](#notion12)  
 
-### <a id="fnotion1">Notion choisie  
+## Résultat des recherches
+
+### <a id="notion1">Notion choisie 1 
 
   #### Definition
   Celle d'internet et la votre.  
@@ -21,42 +26,101 @@
   A quoi sert ce langage, avantages inconvéneants...  
 
   #### Exemple
-      bloc de code, images...  
+    bloc de code, images...  
 
+- - -
 
-### <a id="fnotion2">Notion2  
+### <a id="notion2">Notion2  
   #### Definition
 
   #### Utilisation
   
   #### Exemple
 
-### <a id="fnotion3">Notion3  
+- - -
+
+### <a id="notion3">Notion3  
   #### Definition
 
   #### Utilisation
   
   #### Exemple
 
+- - -
 
-## <a id="back">Back 
-
-### <a id="bnotion1">Notion1 
+### <a id="notion4">Notion4  
   #### Definition
 
   #### Utilisation
   
   #### Exemple
 
+- - -
 
-### <a id="bnotion2">Notion2  
+### <a id="notion5">Notion5   
   #### Definition
 
   #### Utilisation
   
   #### Exemple
 
-### <a id="bnotion3">Notion3  
+- - -
+
+### <a id="notion6">Notion6   
+  #### Definition
+
+  #### Utilisation
+  
+  #### Exemple
+
+- - -
+
+### <a id="notion2">Notion7  
+  #### Definition
+
+  #### Utilisation
+  
+  #### Exemple
+
+- - -
+
+### <a id="notion3">Notion8  
+  #### Definition
+
+  #### Utilisation
+  
+  #### Exemple
+
+- - -
+
+### <a id="notion4">Notion9 
+  #### Definition
+
+  #### Utilisation
+  
+  #### Exemple
+
+- - -
+
+### <a id="notion5">Notion10 
+  #### Definition
+
+  #### Utilisation
+  
+  #### Exemple
+
+- - -
+
+### <a id="notion6">Notion11
+  #### Definition
+
+  #### Utilisation
+  
+  #### Exemple
+
+- - -
+
+### <a id="notion6">Notion12
   #### Definition
 
   #### Utilisation

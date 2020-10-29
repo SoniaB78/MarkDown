@@ -115,7 +115,15 @@
   4. **Le langage de contrôle des données** : Il autorise ou interdit l'accès à certaines données.
 
   #### Exemple
+  Requête de recherche :
+  | SELECT   : nom_service     |
+  | FROM     : employe         |
+  | WHERE    : statut: salarié |
+  | ORDER BY : nom             |
 
+  Ajouter une requête :
+  INSERT INTO table(name1, name2, name3)
+  VALUES ('test','N',NULL);
 
 - - -
 

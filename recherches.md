@@ -3,7 +3,7 @@
 
 ##  Sommaire
 
-- [Notion Choisie](#notion1)
+- [Git](#notion1)
 - [Notion Choisie](#notion2)
 - [Notion Choisie](#notion3)
 - [Notion Choisie](#notion4) 
@@ -20,11 +20,15 @@
 
 ### <a id="notion1">Notion choisie 1 
 
-  #### Definition
-  Celle d'internet et la votre.  
+  #### Definition 
+  Git est un système de contrôle de version, en open source (libre de droit). 
+  Un outil de qualité qui offre les fonctionnalités, les performances, le niveau de sécurité et la flexibilité dont la plupart des développeurs ont besoin.
+
 
   #### Utilisation
-  A quoi sert ce langage, avantages inconvéneants...  
+  Il sert à partager, transmettre, centraliser (et suivre les modifications) de projets de développeurs.
+  Il est critiqué pour être difficile à maitriser, surtout pour les débutants. 
+
 
   #### Exemple
     bloc de code, images...  
@@ -33,6 +37,7 @@
 
 ### <a id="notion2">Notion2  
   #### Definition
+
 
   #### Utilisation
   

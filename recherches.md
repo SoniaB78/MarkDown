@@ -76,6 +76,10 @@
       $("body").append("<h1>Salut les jeunes</h1>");
       </script>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7a8e0c92a7c70ec00afe2af5367cff89eff8dd15
 
 - - -
 

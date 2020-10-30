@@ -148,10 +148,23 @@
 ### <a id="notion6">Notion11
   #### Definition
 
+  Définition internet: Markdown est un langage de balisage léger créé en 2004 par John Gruber avec l'aide d'Aaron Swartz1,2. Son but est d'offrir une syntaxe facile à lire et à écrire. Un document balisé par Markdown peut être lu en l'état sans donner l’impression d'avoir été balisé ou formaté par des instructions particulières.
+
+
+  Ma définition: Markdown est un language permettant de simplifier des commandes pour gagner du temps comme mettre des mots en italique ou en gras.  Pour utiliser le markdown il faut lorsque qu'on créé le fichier mettre le nom du fichier suivi de .md .
+
   #### Utilisation
   
-  #### Exemple
+  A quoi sert ce langage, avantages inconvéneants:
+    Le langage de balisage léger Markdown est utilisé dans de nombreuses applications, que ce soit des logiciels/éditeurs de code24, des logiciels d'écriture25, des plateformes de code26,27, ou encore des chaînes d'édition28 avec l'addition d'autres logiciels. Les domaines concernés peuvent être le développement informatique (Markdown est habituellement utilisé pour formater le fichier README décrivant le code source d'un programme), la rédaction de documentation technique ou encore la publication académique29.
+    L' avantage du Markdown est son gain de temps mais son inconvénients est le fait qu'il reste limité.
 
+  #### Exemple
+    Pour mettre en italique : *quelques mots*
+    Pour mettre en gras : __quelques mots__ 
+    Pour faire des listes à cocher : [ ] Maroc
+                                     [x] Martinique 
+                                     [ ] Algérie
 - - -
 
 ### <a id="notion6">Notion12

@@ -63,12 +63,25 @@
 
 - - -
 
-### <a id="notion5">Notion5   
+### <a id="notion5">jquery   
   #### Definition
-
+  c'est un logiciel de codage développer par JOHN RESIG
+  sa premiére version date du premier janvier 2006 sa dérniéres version est la 3.5.1 (4 mai 2020)
+  c'est écrit en JAVASCRIPT sa langue est en anglais 
   #### Utilisation
-  
+  Jquery, ou jQuery, est une bibliothèque JavaScript gratuite, libre et multiplateforme. Compatible avec l'ensemble des navigateurs Web (Internet Explorer, Safari, Chrome, Firefox, etc.), elle a été conçue et développée en 2006 pour faciliter l'écriture de scripts. Il s'agit du framework JavaScript le plus connu et le plus utilisé. Il permet d'agir sur les codes HTML, CSS, JavaScript et AJAX et s'exécute essentiellement côté client. 
+  La bibliothèque jQuery permet, entre autres, de gagner en rapidité dans l'interaction avec le code HTML d'une page Web. Elle propose comme principales fonctionnalités : 
+  la manipulation du Document Object Model (DOM)
+  la gestion des événements (mouvements de souris, clics, etc.) et de l'AJAX (architecture informatique) 
+  la création d'effets d'animation
+  la manipulation des feuilles de style en cascade
+  et bien d'autres encore. 
   #### Exemple
+      <script>
+      $("body").append("<h1>Salut les jeunes</h1>");
+      </script>
+
+
 
 - - -
 

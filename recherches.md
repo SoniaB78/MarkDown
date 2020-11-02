@@ -6,7 +6,7 @@
 - [GIT](#notion1)
 - [Notion Choisie](#notion2)
 - [Notion Choisie](#notion3)
-- [Notion Choisie](#notion4) 
+- [Javascript](#notion4) 
 - [Malache jquery](#notion5)
 - [Notion Choisie](#notion6)  
 - [Notion Choisie](#notion7)
@@ -51,12 +51,19 @@
 
 - - -
 
-### <a id="notion4">Notion4  
+### <a id="notion4">Javascript
   #### Definition
+  JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web. Avec les technologies HTML et CSS, JavaScript est parfois considéré comme l'une des technologies cœur du World Wide Web2. Une grande majorité des sites web l'utilisent
 
   #### Utilisation
-  
+  Le code JavaScript a besoin d'un objet global pour y rattacher les déclarations (variables et fonctions) avant d'exécuter des instructions. La situation la plus connue est celle de l'objet window obtenu dans le contexte d'une page web. D'autres environnements sont possibles dont celui fourni par Adobe ou l'environnement Node.js
+
   #### Exemple
+      if (typeof monObjet.methode === 'function') {
+      monObjet.methode();
+    } else if (typeof monObjet.methode2 === 'function') {
+      monObjet.methode2();
+    }
 
 - - -
 

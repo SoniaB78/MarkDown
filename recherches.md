@@ -3,7 +3,7 @@
 
 ##  Sommaire
 
-- [Notion Choisie](#notion1)
+- [GIT](#notion1)
 - [Notion Choisie](#notion2)
 - [Notion Choisie](#notion3)
 - [Notion Choisie](#notion4) 
@@ -12,22 +12,24 @@
 - [Notion Choisie](#notion7)
 - [Notion Choisie](#notion8)
 - [Notion Choisie](#notion9)
-- [Notion Choisie](#notion10) 
-- [Notion Choisie](#notion11)
-- [Notion Choisie](#notion12)  
+- [SQL](#notion10) 
+- [MarkDown](#notion11)
+- [Wordpress](#notion12)  
 
 ## Résultat des recherches
 
-### <a id="notion1">Notion choisie 1 
+### <a id="notion1">GIT
 
-  #### Definition
-  Celle d'internet et la votre.  
+  #### Definition 
+  Git est un système de contrôle de version, en open source (libre de droit). 
+  Un outil de qualité qui offre les fonctionnalités, les performances, le niveau de sécurité et la flexibilité dont la plupart des développeurs ont besoin.
 
-  #### Utilisation
-  A quoi sert ce langage, avantages inconvéneants...  
+  #### Utilisation  
+  Il sert à partager, transmettre, centraliser (et suivre les modifications) de projets de développeurs.
+  Il est critiqué pour être difficile à maitriser, surtout pour les débutants. 
 
-  #### Exemple
-    bloc de code, images...  
+  #### Exemple  
+    bloc de code, images...   
 
 - - -
 
@@ -76,11 +78,6 @@
       $("body").append("<h1>Salut les jeunes</h1>");
       </script>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 7a8e0c92a7c70ec00afe2af5367cff89eff8dd15
-
 - - -
 
 ### <a id="notion6">Notion6   
@@ -119,16 +116,31 @@
 
 - - -
 
-### <a id="notion5">Notion10 
+### <a id="notion10">SQL
   #### Definition
+  Le **langage SQL** (Structured Query Language) est un langage informatique normalisé utilisé pour les bases de données relationnelles.  
 
   #### Utilisation
-  
+  Il couvre 4 domaines d'instruction :
+  1. **La manipulation de données** : Il permet de rechercher, d'ajouter, de modifier et de supprimer des données.
+  2. **Le langage de définition des données** : Il permet de créer et modifier des données de la base de données.
+  3. **Le langage de contrôle de transaction** : Il permet de commencer et terminer les transactions.
+  4. **Le langage de contrôle des données** : Il autorise ou interdit l'accès à certaines données.
+
   #### Exemple
+  Requête de recherche :
+  | SELECT   : nom_service     |
+  | FROM     : employe         |
+  | WHERE    : statut: salarié |
+  | ORDER BY : nom             |
+
+  Ajouter une requête :
+  INSERT INTO table(name1, name2, name3)
+  VALUES ('test','N',NULL);
 
 - - -
 
-### <a id="notion6">Notion11
+### <a id="notion11">MarkDown
   #### Definition
 
   Définition internet: Markdown est un langage de balisage léger créé en 2004 par John Gruber avec l'aide d'Aaron Swartz1,2. Son but est d'offrir une syntaxe facile à lire et à écrire. Un document balisé par Markdown peut être lu en l'état sans donner l’impression d'avoir été balisé ou formaté par des instructions particulières.
@@ -150,9 +162,16 @@
                                      [ ] Algérie
 - - -
 
-### <a id="notion6">Notion12
+### <a id="notion12">Wordpress
+
   #### Definition
+    WordPress trouve ses origines dans le logiciel b2 développé par Michel Valdrighi en 2001, un logiciel de publication de blog open-source reposant sur une base de données (MySQL). Michel Valdrighi ajoute de nombreuses fonctionnalités avant d'arrêter le développement du logiciel pour des raisons personnelles à la fin de 2002.
+
 
   #### Utilisation
-  
+  WordPress permet la création de pages et d'articles avec de nombreuses fonctionnalités. Il est possible d'anticiper la publication d'un article en modifiant la date de publication, de couper un article en plusieurs pages si celui-ci est trop long, d'insérer des fichiers multimédias et de créer des miniatures, ou encore d'insérer des émoticônes19. Afin de rendre les pages plus attractives, il existe de nombreux plugins de formatage de texte pour enrichir le contenu et gérer la typographie.
+
   #### Exemple
+  https://wordpress.org/showcase/
+
+  et la photo dans le dossier image

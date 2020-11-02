@@ -150,9 +150,15 @@
                                      [ ] Algérie
 - - -
 
-### <a id="notion6">Notion12
+### <a id="notion6">Wordpress
+
   #### Definition
+    WordPress trouve ses origines dans le logiciel b2 développé par Michel Valdrighi en 2001, un logiciel de publication de blog open-source reposant sur une base de données (MySQL). Michel Valdrighi ajoute de nombreuses fonctionnalités avant d'arrêter le développement du logiciel pour des raisons personnelles à la fin de 2002.
 
   #### Utilisation
-  
+  WordPress permet la création de pages et d'articles avec de nombreuses fonctionnalités. Il est possible d'anticiper la publication d'un article en modifiant la date de publication, de couper un article en plusieurs pages si celui-ci est trop long, d'insérer des fichiers multimédias et de créer des miniatures, ou encore d'insérer des émoticônes19. Afin de rendre les pages plus attractives, il existe de nombreux plugins de formatage de texte pour enrichir le contenu et gérer la typographie.
+
   #### Exemple
+  https://wordpress.org/showcase/
+
+  et la photo dans le dossier image

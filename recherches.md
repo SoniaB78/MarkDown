@@ -10,7 +10,7 @@
 - [Malache jquery](#notion5)
 - [Notion Choisie](#notion6)  
 - [Notion Choisie](#notion7)
-- [Notion Choisie](#notion8)
+- [PHP](#notion8)
 - [Notion Choisie](#notion9)
 - [SQL](#notion10) 
 - [MarkDown](#notion11)
@@ -105,12 +105,31 @@
 
 - - -
 
-### <a id="notion3">Notion8  
-  #### Definition
-
+### <a id="notion8">PHP 
+ #### Definition
+  PHP (officiellement, ce sigle est un acronyme récursif pour PHP Hypertext Preprocessor ) est un langage de scripts généraliste et Open Source, spécialement conçu pour le développement d'applications web. Il peut être intégré facilement au HTML. Le code PHP est inclus entre une balise de début <?php et une balise de fin ?> qui permettent au serveur web de passer en mode PHP. 
+  PHP est un langage de scripts généraliste, spécialement conçu pour le développement d'applications web. Il peut être intégré facilement au HTML.
   #### Utilisation
-  
+  PHP est principalement conçu pour servir de langage de script coté serveur, ce qui fait qu'il est capable de réaliser tout ce qu'un script CGI quelconque peut faire, comme collecter des données de formulaire, générer du contenu dynamique, ou gérer des cookies.
+  Le langage de script PHP peut être utilisé avec tous les systèmes d'exploitation les plus connus. Par ailleurs, PHP est compatible avec la plupart des serveurs web, comme par exemple Apache. Les avantages pour l'utilisateur en un coup d'œil sont :
+  PHP peut être utilisé sur pratiquement n'importe quel système d'exploitation et n'importe quel type de serveur.
+  Les applications peuvent être programmées pour s'axer sur les procédures ou sur le projet.
+  Les fichiers HTML, les images, les fichiers PDF ou les fichiers Flash peuvent être générés dynamiquement avec PHP.
+  PHP prend en charge une grande quantité de bases de données différentes, c'est pourquoi ce langage de script est idéal pour la création de sites web qui se basent sur les données.
+  PHP offre un support complet pour la communication du serveur avec d'autres protocoles. 
+  Un petit inconvénient lors de la programmation avec PHP est qu'il génère des URL qui sont généralement énigmatiques pour les utilisateurs et qui fournissent moins de mots-clés pour les moteurs de recherche. Mais avec un simple mod-rewrite, les URL générées par PHP peuvent être converties en URL SEF 
   #### Exemple
+    <!-- <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Exemple</title>
+    </head>
+    <body>
+    <?php
+    echo "Bonjour, je suis un script PHP !";
+    ?>
+    </body>
+    </html>  -->
 
 - - -
 

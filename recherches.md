@@ -4,21 +4,21 @@
 ##  Sommaire
 
 - [GIT](#notion1)
-- [Notion Choisie](#notion2)
-- [Notion Choisie](#notion3)
+- [HTML](#notion2)
+- [CSS](#notion3)
 - [Javascript](#notion4) 
-- [Malache jquery](#notion5)
-- [Notion Choisie](#notion6)  
-- [Notion Choisie](#notion7)
+- [Malache JQuery](#notion5)
+- [Bootstrap](#notion6)  
+- [Ajax](#notion7)
 - [PHP](#notion8)
-- [Notion Choisie](#notion9)
+- [Programmation orienté objet (poo)](#notion9)
 - [SQL](#notion10) 
 - [MarkDown](#notion11)
 - [Wordpress](#notion12)  
 
 ## Résultat des recherches
 
-### <a id="notion1">GIT
+### <a id="notion1"></a>GIT
 
   #### Definition 
   Git est un système de contrôle de version, en open source (libre de droit). 
@@ -33,7 +33,7 @@
 
 - - -
 
-### <a id="notion2">Notion2  
+### <a id="notion2"></a>HTML 
   #### Definition
 
   #### Utilisation
@@ -42,7 +42,7 @@
 
 - - -
 
-### <a id="notion3">Notion3  
+### <a id="notion3"></a>CSS 
   #### Definition
 
   #### Utilisation
@@ -51,7 +51,7 @@
 
 - - -
 
-### <a id="notion4">Javascript
+### <a id="notion4"></a>Javascript
   #### Definition
   JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web. Avec les technologies HTML et CSS, JavaScript est parfois considéré comme l'une des technologies cœur du World Wide Web2. Une grande majorité des sites web l'utilisent
 
@@ -67,7 +67,7 @@
 
 - - -
 
-### <a id="notion5">jquery   
+### <a id="notion5"></a>jQuery   
   #### Definition
   c'est un logiciel de codage développer par JOHN RESIG
   sa premiére version date du premier janvier 2006 sa dérniéres version est la 3.5.1 (4 mai 2020)
@@ -87,7 +87,7 @@
 
 - - -
 
-### <a id="notion6">Notion6   
+### <a id="notion6"></a>Bootstrap
   #### Definition
 
   #### Utilisation
@@ -96,16 +96,94 @@
 
 - - -
 
-### <a id="notion2">Notion7  
-  #### Definition
+### <a id="notion2"></a>AJAX
+#### Definition
+​
+AJAX (Asynchronous JavaScript and XML) n'est pas une technologie en soi, mais un terme désignant une « nouvelle » approche utilisant un ensemble de technologies existantes, dont : HTML ou XHTML, les feuilles de styles CSS, JavaScript, le modèle objet de document (DOM), XML, XSLT, et l'objet XMLHttpRequest. Lorsque ces technologies sont combinées dans le modèle AJAX, les applications Web sont capables de réaliser des mises à jour rapides de l'interface utilisateur sans devoir recharger la page entière du navigateur. Les applications fonctionnent plus rapidement et sont plus réactives aux actions de l'utilisateur.
+​
+Asynchronous Javascript And Xml (AJAX) : il désigne un nouveau type de conception de pages Web permettant l'actualisation de certaines données d'une page sans procéder au rechargement total de cette page.
+​
+#### Utilisation
+​
+Ajax permet de modifier partiellement la page affichée par le navigateur pour la mettre à jour sans avoir à recharger la page entière. Par exemple le contenu d'un champ de formulaire peut être changé, sans avoir à recharger la page avec le titre, les images, le menu, etc. 
+​
+#### Exemple
+Lire un texte
+```
+        <html>
+        <head>
+        <script>
+        function submitForm()
+        { 
+            var xhr; 
+            try {  xhr = new ActiveXObject('Msxml2.XMLHTTP');   }
+            catch (e) 
+            {
+                try {   xhr = new ActiveXObject('Microsoft.XMLHTTP'); }
+                catch (e2) 
+                {
+                  try {  xhr = new XMLHttpRequest();  }
+                  catch (e3) {  xhr = false;   }
+                }
+            }
+          
+            xhr.onreadystatechange  = function() 
+            { 
+              if(xhr.readyState  == 4)
+              {
+                if(xhr.status  == 200) 
+                    document.ajax.dyn="Received:"  + xhr.responseText; 
+                else
+                    document.ajax.dyn="Error code " + xhr.status;
+                }
+            }; 
+        
+          xhr.open("GET", "data.xml",  true); 
+          xhr.send(null); 
+        } 
 
-  #### Utilisation
-  
-  #### Exemple
-
+        </script>
+        </head>
+          
+        <body>
+            <FORM method="POST" name="ajax" action="">
+                <INPUT type="BUTTON" value="Submit"  ONCLICK="submitForm()">
+                <INPUT type="text" name="dyn"  value="">
+            </FORM>
+        </body>
+        </html>
+        Syntaxe de formulaire utilisant Ajax
+        Commentaires sur le code:
+        ​
+        new ActiveXObject(Microsoft.XMLHTTP)
+          Ce constructeur est pour Internet Explorer.
+        ​
+        new XMLHttpRequest()
+          Ce constructeur est pour tout autre navigateur incluant Firefox.
+        ​
+        http.onreadystatechange
+          On associe un traitement (une fonction anonyme en l'occurrence) à cet indicateur d'évènement.
+        ​
+        http.readyState == 4
+          L'état 4 signifie que la réponse est envoyée par le serveur et disponible.
+        ​
+        http.status == 200   
+          Ce status signifie ok, sinon un code d'erreur quelconque est envoyé, 404 par exemple.
+        ​
+        http.open( "POST", "data.xml", true);
+          - POST ou GET
+          -url du fichier.
+          - true pour asynchrone (false pour synchrone).
+        ​
+        http.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+          Cette méthode s'utilise seulement avec POST.
+        ​
+        http.send(document.getElementById("TYPEDTEXT").value);
+          Envoi des données au serveur. Les données sont prises dans le champ dont l'id est "TYPEDTEXT" et qui est rempli par l'utilisateur grâce à un formulaire.
+```
 - - -
 
-### <a id="notion8">PHP 
+### <a id="notion8"></a>PHP 
  #### Definition
   PHP (officiellement, ce sigle est un acronyme récursif pour PHP Hypertext Preprocessor ) est un langage de scripts généraliste et Open Source, spécialement conçu pour le développement d'applications web. Il peut être intégré facilement au HTML. Le code PHP est inclus entre une balise de début <?php et une balise de fin ?> qui permettent au serveur web de passer en mode PHP. 
   PHP est un langage de scripts généraliste, spécialement conçu pour le développement d'applications web. Il peut être intégré facilement au HTML.
@@ -133,7 +211,7 @@
 
 - - -
 
-### <a id="notion4">Notion9 
+### <a id="notion4"></a>Programmation orientée objet (poo)
   #### Definition
 
   #### Utilisation
@@ -142,7 +220,7 @@
 
 - - -
 
-### <a id="notion10">SQL
+### <a id="notion10"></a>SQL
   #### Definition
   Le **langage SQL** (Structured Query Language) est un langage informatique normalisé utilisé pour les bases de données relationnelles.  
 
@@ -166,7 +244,7 @@
 
 - - -
 
-### <a id="notion11">MarkDown
+### <a id="notion11"></a>MarkDown
   #### Definition
 
   Définition internet: Markdown est un langage de balisage léger créé en 2004 par John Gruber avec l'aide d'Aaron Swartz1,2. Son but est d'offrir une syntaxe facile à lire et à écrire. Un document balisé par Markdown peut être lu en l'état sans donner l’impression d'avoir été balisé ou formaté par des instructions particulières.
@@ -188,7 +266,7 @@
                                      [ ] Algérie
 - - -
 
-### <a id="notion12">Wordpress
+### <a id="notion12"></a>Wordpress
 
   #### Definition
     WordPress trouve ses origines dans le logiciel b2 développé par Michel Valdrighi en 2001, un logiciel de publication de blog open-source reposant sur une base de données (MySQL). Michel Valdrighi ajoute de nombreuses fonctionnalités avant d'arrêter le développement du logiciel pour des raisons personnelles à la fin de 2002.

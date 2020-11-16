@@ -43,11 +43,19 @@
 - - -
 
 ### <a id="notion3"></a>CSS 
-  #### Definition
+#### Definition
+  Le terme CSS est l'acronyme anglais de "Cascading Style Sheets" en francais qui peut se traduire par "feuilles de style en cascade".  
+Le CSS est un langage informatique utilisé pour mettre en forme les fichiers HTML ou XML. Ainsi, les feuilles de style, aussi appelé les fichiers CSS, comprennent du code qui permet de gérer le design d'une page en HTML.  
+Bien que l'HTML puisse être mis en forme à l'aide de balises prévus, plus judicieux d'utiliser le CSS et de n'utiliser le XHTML que pour le contenu.  
+L'avantage de l'utilisation d'un fichier CSS pour la mise en forme d'un site réside dans la possibilité de modifier tous les titres du site en une seule fois en modifiants une seule partie du fichier CSS. Sans ce fichier CSS, il serait nécessaire de modifier chaque titre de chaque page du site (difficilement envisageable pour les énormes sites de plusieurs milliers de pages).  
+D'autres points fort sont perceptible. Il est par exemple possible de créer une feuille de style spécifique pour l'impression des documents, ce qui permet de retirer tous les effets de style et toutes les parties inutile lors de l'impression.  De même, une feuille de style peut être utilisée pour les utilisateurs d'un téléphone portable, ce qui permet de mieux gérer la mise en forme particulièrement pour les petits écrans de ces appareils.
 
-  #### Utilisation
-  
-  #### Exemple
+#### Utilisation
+Les CSS dans une feuille de style totalement séparée du code HTML. La façon idéale de définir les CSS consiste à les enregistrer dans un document indépendant de vos pages HTML.  
+Grâce à cette méthode, toutes les pages qui font référence à cette feuille de style externe hériteront de toutes ses définitions
+1. Changer les couleur 
+2. changer la taille 
+3. mettre le style de notre page HTML comme bon nous semble
 
 - - -
 

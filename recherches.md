@@ -16,6 +16,8 @@
 - [MarkDown](#notion11)
 - [Wordpress](#notion12)  
 
+- - -
+
 ## Résultat des recherches
 
 ### <a id="notion1"></a>GIT
@@ -33,12 +35,31 @@
 
 - - -
 
-### <a id="notion2"></a>HTML 
-  #### Definition
+### <a id="notion2"></a>HTML  
+  #### Définition d'internet :
+*Le HyperText Markup Language*, généralement abrégé ***HTML*** ou dans sa dernière version HTML5, est le langage de balisage conçu pour représenter les pages web.  
 
   #### Utilisation
-  
+  Le ***HTML*** permet d'écrire de l'hypertexte, c'est en grande partie avec ce langage que sont faites toutes les pages internet que nous connaissons,
+  il permet d'inclure également des *images*, des *formulaires*, et même des *vidéos*.  
+  Le ***HTML*** permet de mettre en forme tout le contenu d'une page internet, à condition de bien suivre les étapes de la page internet à créer.  
   #### Exemple
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Ma première page</title>
+    </head>
+    <body>
+      <ul class="navbar">
+        <li><a href="index.html">Home page</a>
+        <li><a href="reflexions.html">Réflexions</a>
+        <li><a href="ville.html">Ma ville</a>
+        <li><a href="liens.html">Liens</a>
+      </ul>
+      <h1>Ma première page avec du style</h1>
+      <p>Bienvenue sur ma page avec du style! 
+    </body>
+    </html>
 
 - - -
 

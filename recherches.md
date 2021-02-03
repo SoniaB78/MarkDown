@@ -44,6 +44,8 @@
   #### Definition
 
   #### Utilisation
+ 
+  #### Exemple
 
 
 - - -
@@ -79,9 +81,9 @@
 
 ### <a name="notion7"></a>AJAX
   #### Definition
-​
+
   #### Utilisation
-​
+
   #### Exemple
 
 

@@ -3,7 +3,7 @@ Ce repository à plusieurs vocations:
 1. Il permet de mettre en pratique les petits tips donnés pour faire vos recherches.
 2. En apprendre plus sur une des notion qui apparaît dans le programme.
 3. D'apprendre à mettre en forme un document avec le Markdown.
-4. Mais surtout il fait utiliser Git, mutualiser le travail et l'objectif final de cet exercice.  
+4. Mais surtout il fait utiliser Git, mutualiser le travail est l'objectif final de cet exercice.  
 
 Les étapes décrites dans la marche à suivre ne sont qu'un résumé, suivez les étapes du lien.
 
